@@ -9,7 +9,7 @@ import { useRef } from "react";
 const MotionLink = motion(Link);
 
 export default function EventCard({ event }: { event: EventoEvent }) {
-  const ref = useRef();
+  const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["0 1", "1.5 1"],

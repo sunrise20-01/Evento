@@ -42,6 +42,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - npm i ts-node@10.9.1 --save-dev ==> for running seed to prisma
 - npx prisma db seed
 
+- npm i zod => zod validation for Incoming Data
+
 git init
 git remote add origin [url]
 git pull
+
+# Learn Export in Next.js
